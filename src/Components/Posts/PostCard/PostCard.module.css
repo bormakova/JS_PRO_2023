@@ -1,0 +1,13 @@
+.cardWrapper {
+    padding: 20px;
+    border: 1px solid brown;
+    border-radius: 10px;
+}
+
+.cardWrapper .label {
+    font-size: 24px;
+}
+
+.cardWrapper .content {
+    font-size: 18px;
+}

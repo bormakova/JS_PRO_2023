@@ -1,4 +1,45 @@
 .header {
     width: 100%;
-    background-color: blueviolet;
+    background-color: #fff;
+    height: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.logoHeader {
+    width: 100px;
+    height: 40px;
+}
+
+.meinMenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightMenu {
+    width: 350px;
+}
+
+.rightMenu .navmenu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.navmenu li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navmenu li:hover {
+    color: #f2eeec;
+    transition: 0.5ms ease;
+    cursor: pointer;
+}
+
+.rightMenu .navicon {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    float: right;
 }
